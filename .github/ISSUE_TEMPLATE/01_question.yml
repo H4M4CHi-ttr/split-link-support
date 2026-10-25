@@ -1,0 +1,20 @@
+name: 質問
+description: Split Link の使い方や設定について相談する
+title: "[質問] "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: 投稿は公開されます。個人情報や認証情報を含めないでください。
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問内容
+      description: 知りたいことや、試したことがあれば教えてください。
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 利用環境（必要な場合）
+      description: Split Link と Chrome のバージョン、OS、対象サイトなど。

@@ -1,0 +1,22 @@
+name: 機能リクエスト
+description: 追加してほしい機能や改善を提案する
+title: "[リクエスト] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: 投稿は公開されます。個人情報や認証情報を含めないでください。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 改善したいこと
+      description: どのような場面で困っているか教えてください。
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: 希望する機能や動作
+      description: どう変わると使いやすくなるか教えてください。
+    validations:
+      required: true

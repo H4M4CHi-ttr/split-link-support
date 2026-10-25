@@ -1,0 +1,36 @@
+name: バグ報告
+description: Split Link が期待どおりに動かない問題を報告する
+title: "[バグ] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 投稿は公開されます。画像や URL にも個人情報や認証情報を含めないでください。
+  - type: input
+    id: environment
+    attributes:
+      label: 利用環境
+      description: わかる範囲で記入してください。不明な項目は「不明」で構いません。
+      placeholder: Split Link のバージョン / Chrome のバージョン / OS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 対象サイトと、問題が起きるまでの操作を順に教えてください。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の動作
+      description: エラーメッセージやスクリーンショットがあれば添付してください。
+    validations:
+      required: true
