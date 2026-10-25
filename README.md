@@ -1,5 +1,7 @@
 # Split Link サポート
 
+![Split Link のアイコン](assets/split-link-icon.png)
+
 Split Link の質問・機能リクエスト・バグ報告を受け付ける公開リポジトリです。
 
 [Chrome ウェブストアで Split Link を見る](https://chromewebstore.google.com/detail/split-link/aoppkblngfgfaaiopijjgleohngggchc)
